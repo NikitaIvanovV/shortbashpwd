@@ -1,7 +1,7 @@
 # Properly format $PWD
 _shortbashpwd_fmt() {
 	printf '%s\n' "$PWD" |
-		sed -e "s,^/home/$USER\(/\|$\),~/," -e ':a; s|/\(\.\?[^.]\)[^/]\+/|/\1/|; ta'
+		sed -e "s,^/home/$USER\(/\|$\),~\1," -e ':a; s|/\(\.\?[^.]\)[^/]\+/|/\1/|; ta'
 }
 
 # Update PS1 when a directory is changed
