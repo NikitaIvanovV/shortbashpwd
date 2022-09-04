@@ -48,7 +48,7 @@ Uninstall with `sudo make uninstall`.
 ### AUR
 
 If you are an Arch Linux user, you can install
-[`shortbashpwd`](https://aur.archlinux.org/packages/shortbashpwd-git)
+[`shortbashpwd-git`](https://aur.archlinux.org/packages/shortbashpwd-git)
 AUR package.
 
 ```sh
@@ -56,4 +56,8 @@ yay -S shortbashpwd-git
 ```
 
 After installing the package, you will be asked to
-run one command manually to finish the installation ([read why](#manual)).
+run one command manually to finish the installation ([read why](#manual)):
+
+```sh
+cat /usr/share/shortbashpwd/bashrc.bash >> ~/.bashrc"
+```
