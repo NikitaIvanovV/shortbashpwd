@@ -16,11 +16,6 @@ so I made a script that does it:
 
 ![bash prompt](images/bash.png)
 
-## Dependencies
-
-* bash
-* sed
-
 ## Installation
 
 ### Manual
