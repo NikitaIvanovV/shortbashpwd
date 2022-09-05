@@ -1,12 +1,11 @@
 # Properly format $PWD
 _shortbashpwd_fmt() {
 	local pwd="$PWD"
-	local home="/home/$USER"
 
-	# Replace /home/$USER with ~
-	local reg="^$home"'(/|$)'
+	# Replace $HOME with ~
+	local reg="^$HOME"'(/|$)'
 	if [[ $pwd =~ $reg ]]; then
-		pwd="${pwd:${#home}}"
+		pwd="${pwd:${#HOME}}"
 		pwd="~${pwd}"
 	fi
 
