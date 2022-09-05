@@ -54,5 +54,5 @@ After installing the package, you will be asked to
 run one command manually to finish the installation ([read why](#manual)):
 
 ```sh
-cat /usr/share/shortbashpwd/bashrc.bash >> ~/.bashrc"
+cat /usr/share/shortbashpwd/bashrc.bash >> ~/.bashrc
 ```
